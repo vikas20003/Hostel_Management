@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+    <link rel="stylesheet" href="css/global.css" />
+    <link rel="stylesheet" href="css/Register.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inder:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Abel:wght@400&display=swap"
+    />
+  </head>
+  <body>
+    <div class="register">
+      <header class="rectangle-container">
+        <div class="rectangle-div"></div>
+        <img class="frame-child1" alt="" src="images/ellipse-1.svg" />
+
+        <a class="icon-home2" id="iconHome">
+          <img class="vector-icon4" alt="" />
+
+          <img class="vector-icon5" alt="" src="images/vector.svg" />
+        </a>
+        <strong class="register1">Register</strong>
+      </header>
+      <div class="put-an-entry">Put an entry in Hostel Register here:</div>
+      <div class="date-12-april">Date: <%=Date1%></div>
+      <form class="entry-by-name-abc-parent" method="post" action="/register">
+        <div class="entry-by-name">Entry By name: <%=Name%></div>
+        <div class="contact-no-799011515">Contact No: <%=Contact%></div>
+        <div class="room-no-b">Room No: <%=Room%></div>
+        <div class="out-time" >Out Time : <%=Time%></div>
+        <div class="reason-to-go">Reason to go Out:</div>
+        <input class="sec3" type="text" name="reason" />
+
+        <button class="leave-hostel-wrapper" id="frameButton" type="submit">
+          <div class="leave-hostel">Leave Hostel</div>
+        </button>
+        <!-- <div class="sec4"> -->
+          <!-- <div class="current-time">Current Time</div> -->
+          <!-- <img class="icon-alarm" alt="" /> -->
+        <!-- </div> -->
+      </form>
+      <img
+        class="filing-systemrafiki-icon"
+        alt=""
+        src="images/filingsystemrafiki.svg"
+      />
+    </div>
+
+    <script>
+      var iconHome = document.getElementById("iconHome");
+      if (iconHome) {
+        iconHome.addEventListener("click", function (e) {
+          window.location.href = "/dahsboard";
+        });
+      }
+      
+      var frameButton = document.getElementById("frameButton");
+      if (frameButton) {
+        frameButton.addEventListener("click", function (e) {
+          // Please sync "register n" to the project
+        });
+      }
+      var date = new Date(); var current_date = date.getDate()+"/"+(date.getMonth()+1)+"/"+date.getFullYear();
+  document.getElementById("cdate").innerHTML = current_date;  
+  var current_time = date.getHours()+":"+(date.getMinutes());
+  document.getElementById("ctime").innerHTML = current_time;  
+
+  
+      </script>
+  </body>
+</html>

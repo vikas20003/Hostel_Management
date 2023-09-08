@@ -1,0 +1,128 @@
+.frame-inner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-darkslategray-300);
+  width: 1435.78px;
+  height: 83.75px;
+}
+.icon-arrow-back2 {
+  position: absolute;
+  height: 47.62%;
+  width: 2.78%;
+  top: 29.76%;
+  right: 89.79%;
+  bottom: 22.62%;
+  left: 7.43%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  display: none;
+}
+.lost-and-found {
+  position: absolute;
+  top: 24.93px;
+  left: 615.19px;
+}
+.icon-home2,
+.rectangle-container {
+  position: absolute;
+  top: 1px;
+  left: 0;
+  width: 1435.78px;
+  height: 83.75px;
+}
+.icon-home2 {
+  height: 3.91%;
+  width: 2.78%;
+  top: 2.05%;
+  right: 2.57%;
+  bottom: 94.04%;
+  left: 94.65%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.lostfoiund {
+  position: relative;
+  line-height: 13.96px;
+  font-weight: 500;
+}
+.found-wrapper,
+.frame-parent1,
+.lostfoiund-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.lostfoiund-wrapper {
+  flex: 1;
+  padding: 13.958983421325684px 0;
+  align-items: center;
+}
+.found-wrapper,
+.frame-parent1 {
+  align-items: flex-start;
+}
+.frame-parent1 {
+  align-self: stretch;
+  background-color: var(--color-darkslategray-200);
+  border: 1px solid var(--color-darkslategray-100);
+  padding: 0 46.862300872802734px;
+  gap: 4.99px;
+}
+.found-wrapper {
+  flex: 1;
+  padding: 15.953124046325684px 0;
+}
+.blue-colored {
+  position: relative;
+  line-height: 47.86px;
+}
+.blue-colored-wrapper {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  padding: 15.953124046325684px 0;
+  align-items: flex-start;
+  justify-content: flex-start;
+  font-family: var(--font-roboto);
+}
+.frame-parent2 {
+  align-self: stretch;
+  background-color: var(--color-gray-100);
+  border: 1px solid var(--color-darkslategray-100);
+  box-sizing: border-box;
+  height: 63.81px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  padding: 0.9970702528953552px 46.862300872802734px;
+  align-items: center;
+  justify-content: center;
+}
+.table-variation-12 {
+  position: absolute;
+  top: 187.45px;
+  left: 186.45px;
+  width: 1062.88px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  text-align: left;
+  font-size: 13.96px;
+  font-family: var(--font-montserrat);
+}
+.a-lofo {
+  position: relative;
+  background-color: var(--color-gray-100);
+  width: 100%;
+  height: 1021px;
+  overflow: hidden;
+  text-align: center;
+  font-size: 27.92px;
+  color: var(--color-white);
+  font-family: var(--font-inder);
+}

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+    <link rel="stylesheet" href="css/global.css" />
+    <link rel="stylesheet" href="css/Fees.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inder:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Abel:wght@400&display=swap"
+    />
+  </head>
+  <body>
+    <div class="fees">
+      <header class="rectangle-group">
+        <div class="frame-inner"></div>
+        <img class="ellipse-icon" alt="" src="images/ellipse-1.svg" />
+
+        <a class="icon-home1" id="iconHome">
+          <img class="vector-icon2" alt="" />
+
+          <img class="vector-icon3" alt="" src="images/vector1.svg" />
+        </a>
+        <div class="hostel-fees-status">Hostel Fees Status</div>
+      </header>
+      <div class="check-your-hostel">Check your hostel fees status here</div>
+      <img class="fees-child" alt="" src="images/vector-2.svg" />
+
+      <div class="fees1">
+        <div class="sem-1">Semester 1</div>
+      </div>
+      <div class="fees2">
+        <div class="sem-1">Semester 4</div>
+      </div>
+      <div class="fees3">
+        <div class="sem-1">Semester 2</div>
+      </div>
+      <div class="fees4">
+        <div class="sem-1">Semester 1</div>
+      </div>
+      <div class="fees5">
+        <div class="sem-1">Semester 5</div>
+      </div>
+      <div class="fees6">
+        <div class="sem-1">Semester 3</div>
+      </div>
+      <div class="fees7">
+        <div class="sem-1">Semester 6</div>
+      </div>
+      <div class="fees8">
+        <div class="sem-1">Semester 7</div>
+      </div>
+      <div class="fees9">
+        <div class="sem-1">Semester 8</div>
+      </div>
+      <form class="frame-parent" method="post" action="/fees">
+        <div class="icon-credit-card-parent">
+          <img
+            class="icon-credit-card"
+            alt=""
+            src="images/-icon-credit-card.svg"
+          />
+
+          <input class="sec1" type="text" name="tid" />
+        </div>
+        <div class="enter-transaction-id">Enter Transaction Id:</div>
+        <div class="add-a-note">Add a note:</div>
+        <button class="send-for-checking-wrapper" type="submit">
+          <div class="send-for-checking">Send for Checking</div>
+        </button>
+        <input class="sec2" type="text" name="note"/>
+      </form>
+      <img class="fees-item" alt="" src="images/group-11.svg" />
+    </div>
+
+    <script>
+      var iconHome = document.getElementById("iconHome");
+      if (iconHome) {
+        iconHome.addEventListener("click", function (e) {
+          window.location.href = "/dashboard";
+        });
+      }
+      </script>
+  </body>
+</html>

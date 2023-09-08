@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+    <link rel="stylesheet" href="css/global1.css" />
+    <link rel="stylesheet" href="css/a-elec-issue.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inder:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Abel:wght@400&display=swap"
+    />
+  </head>
+  <body>
+    <div class="a-elec-issue">
+      <div class="rectangle-parent2">
+        <div class="frame-child1"></div>
+        <img
+          class="icon-arrow-back4"
+          alt=""
+          src="images/-icon-arrow-back3.svg"
+        />
+
+        <strong class="electronic-issues">Student Data</strong>
+      </div>
+      <img class="icon-home4" alt="" src="images/-icon-home2.svg" />
+
+      <div class="table-variation-14">
+        <div class="frame-parent5">
+          <div class="issue-type-container">
+            <div class="name5">Name</div>
+          </div>
+          <div class="phone-wrapper1">
+            <div class="phone3">Phone</div>
+          </div>
+          <div class="issue-type-container">
+            <div class="name5">Room No</div>
+          </div>
+          <div class="issue-type-container">
+            <div class="name5">Student id</div>
+          </div>
+          <div class="issue-type-container">
+            <div class="name5">Email</div>
+          </div>
+        </div>
+        <% students.forEach(function(student) { %>
+        <div class="frame-parent6">
+          <div class="bhen-frame">
+            <div class="name5"><%=student.studentname%></div>
+          </div>
+          <div class="wrapper2">
+            <div class="phone3"><%=student.contact%></div>
+          </div>
+          <div class="f-302-container">
+            <div class="name5"><%=student.room%></div>
+          </div>
+          <div class="repair-any-appliance-wrapper">
+            <div class="repair-any-appliance"><%=student.studentid%></div>
+          </div>
+          <div class="lorem-ipsum-dolor-wrapper1">
+            <div class="repair-any-appliance"><%=student.email%></div>
+          </div>
+        </div>
+        <% }); %>
+
+      </div>
+      <input class="sec" type="text" placeholder="Search" />
+
+      <img class="icon-search" alt="" src="images/-icon-search.svg" />
+
+
+      <a class="icon-home5" id="iconHome">
+        <img class="vector-icon2" alt="" />
+
+        <img class="vector-icon3" alt="" src="iamges/vector1.svg" />
+      </a>
+    </div>
+    <script>
+      var iconHome = document.getElementById("iconHome");
+      if (iconHome) {
+        iconHome.addEventListener("click", function (e) {
+          window.location.href = "/AdminDashboard";
+        });
+      }
+      </script>
+  </body>
+</html>

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+    <link rel="stylesheet" href="css/global.css" />
+    <link rel="stylesheet" href="css/Profile.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inder:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Abel:wght@400&display=swap"
+    />
+  </head>
+  <body>
+    <div class="profile">
+      <header class="rectangle-parent3">
+        <div class="frame-child15"></div>
+        <img class="frame-child16" alt="" src="images/ellipse-1.svg" />
+        <a class="icon-home5" id="iconHome">
+          <img class="vector-icon10" alt="" />
+          <img class="vector-icon11" alt="" src="images/vector1.svg" />
+        </a>
+        <strong class="profile1">Profile</strong>
+      </header>
+      <div class="abhay-verma"><%=Name%></div>
+      <img class="profile-child" alt="" src="images/ellipse-11.svg" />
+
+      <div class="student-id-parent">
+        <div class="student-id">Student Id:</div>
+        <div class="div"><%=Std%></div>
+      </div>
+      <div class="batch-parent">
+        <div class="student-id">Batch:</div>
+        <div class="div">2021</div>
+      </div>
+      <div class="block-no-parent">
+        <div class="student-id">Block No:</div>
+        <div class="div"><%=Block%></div>
+      </div>
+      <div class="gmailcom"><%=Email%></div>
+      <div class="room-no-parent">
+        <div class="student-id">Room No:</div>
+        <div class="div"><%=Room%></div>
+      </div>
+      <div class="phone-no-parent">
+        <div class="student-id">Phone No: <span id="sp"><%=Contact%></span></div>
+      </div>
+      <a href="/"><button class="send-for-checking-wrapper">
+        <div class="send-for-checking">Logout</div>
+      </button></a>
+      <img
+        class="profile-data-bro-1"
+        alt=""
+        src="images/profile-databro-1.svg"
+      />
+      
+    </div>
+
+    <script>
+      var iconHome = document.getElementById("iconHome");
+      if (iconHome) {
+        iconHome.addEventListener("click", function (e) {
+          window.location.href = "/dashboard";
+        });
+      }
+      </script>
+  </body>
+</html>

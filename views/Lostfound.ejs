@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+    <link rel="stylesheet" href="css/global.css" />
+    <link rel="stylesheet" href="css/Lostfound.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inder:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Abel:wght@400&display=swap"
+    />
+  </head>
+  <body>
+    <div class="lostfound">
+      <header class="rectangle-parent">
+        <div class="frame-child"></div>
+        <img class="frame-item" alt="" src="images/ellipse-1.svg" />
+
+        <a class="icon-home" id="iconHome">
+          <img class="vector-icon" alt="" />
+
+          <img class="vector-icon1" alt="" src="images/vector.svg" />
+        </a>
+        <strong class="lost-and-found">Lost and Found</strong>
+      </header>
+      <div class="share-if-you">Share if you have Lost or Found something:</div>
+      <div class="upload-image-not">Upload image (not cumpulsory)</div>
+      <button class="browse-wrapper">
+        <div class="browse">Browse</div>
+      </button>
+      <img class="lostfound-child" alt="" src="images/frame-14@2x.jpg" />
+
+      <form class="lost-or-found-parent" method="post" action="/lost">
+        <div class="lost-or-found">Lost or Found:</div>
+        <div class="describe-your-item">Describe your item here:</div>
+        <input class="sec" type="text" name="des" />
+
+        <button class="send-wrapper" type="submit">
+          <div class="send">Send</div>
+        </button>
+        <select class="lost-found" name="lot">
+          <option value="Lost">Lost</option>
+          <option value="Found">Found</option>
+        </select>
+      </form>
+      <img class="clutterbro-icon" alt="" src="images/clutterbro.svg" />
+    </div>
+
+    <script>
+      var iconHome = document.getElementById("iconHome");
+      if (iconHome) {
+        iconHome.addEventListener("click", function (e) {
+          window.location.href = "/dashboard";
+        });
+      }
+      </script>
+  </body>
+</html>

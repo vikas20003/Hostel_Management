@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+    <link rel="stylesheet" href="css/global.css" />
+    <link rel="stylesheet" href="css/Elec.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inder:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Abel:wght@400&display=swap"
+    />
+  </head>
+  <body>
+    <div class="elec">
+      <img
+        class="electriciancuate-icon"
+        alt=""
+        src="images/electriciancuate.svg"
+      />
+
+      <header class="rectangle-parent1">
+        <div class="frame-child8"></div>
+        <img class="frame-child9" alt="" src="images/ellipse-1.svg" />
+
+        <strong class="electronic-issues">Electronic Issues</strong>
+        <a class="icon-home4" id="iconHome">
+          <img class="vector-icon8" alt="" />
+
+          <img class="vector-icon9" alt="" src="images/vector1.svg" />
+        </a>
+      </header>
+      <div class="report-your-electronical">
+        Report your Electronical issues here:
+      </div>
+      <div class="upload-image-not2">Upload image (not cumpulsory)</div>
+      <div class="browse-frame">
+        <div class="browse2">Browse</div>
+      </div>
+      <div class="rectangle-parent2">
+        <div class="frame-child10"></div>
+        <img class="frame-child11" alt="" src="images/polygon-1.svg" />
+
+        <img class="frame-child12" alt="" src="images/polygon-2.svg" />
+
+        <img class="frame-child13" alt="" src="images/ellipse-2.svg" />
+
+        <div class="frame-child14"></div>
+        <div class="x1">x</div>
+      </div>
+      <form class="frame-group" method="post" action="/elec" >
+        <button class="send-request-container" type="submit">
+          <div class="send-request1">Send Request</div>
+        </button>
+        <div class="select-your-issue-group">
+          <div class="select-your-issue1">Select your Issue:</div>
+          <div class="describe-your-issue1">Describe your issue here:</div>
+          <input class="sec6" type="text" name="note"/>
+
+          <select class="elec-issues" name="issue">
+            <option value="repair appliance">repair appliance</option>
+            <option value="wi-fi">wi-fi issue</option>
+            <option value="new appliance">Add a new Appliance</option>
+            <option value="other">other electrocial issues</option>
+          </select>
+        </div>
+      </form>
+    </div>
+
+    <script>
+      var iconHome = document.getElementById("iconHome");
+      if (iconHome) {
+        iconHome.addEventListener("click", function (e) {
+          window.location.href = "/dashboard";
+        });
+      }
+      </script>
+  </body>
+</html>

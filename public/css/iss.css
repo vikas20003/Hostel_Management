@@ -1,0 +1,184 @@
+.frame-child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-darkslategray-300);
+  width: 1435.78px;
+  height: 83.75px;
+}
+.icon-arrow-back {
+  position: absolute;
+  height: 47.62%;
+  width: 2.78%;
+  top: 29.76%;
+  right: 89.79%;
+  bottom: 22.62%;
+  left: 7.43%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  display: none;
+}
+.plumbing-or-drainage {
+  position: absolute;
+  top: 24.93px;
+  left: 537.42px;
+}
+.rectangle-parent {
+  position: absolute;
+  top: -1px;
+  left: 0;
+  width: 1435.78px;
+  height: 83.75px;
+}
+.vector-icon,
+.vector-icon1 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 60%;
+  right: -3382.5%;
+  bottom: -60%;
+  left: 3382.5%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.vector-icon1 {
+  height: 70.83%;
+  width: 83.33%;
+  top: 12.5%;
+  right: 8.34%;
+  bottom: 16.67%;
+  left: 8.33%;
+}
+.icon-home {
+  text-decoration: none;
+  position: absolute;
+  height: 3.91%;
+  width: 2.78%;
+  top: 2.34%;
+  right: 3.26%;
+  bottom: 93.75%;
+  left: 93.96%;
+}
+.name {
+  position: relative;
+  line-height: 13.96px;
+  font-weight: 500;
+}
+.name-wrapper {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  padding: 13.958984375px 0;
+  align-items: center;
+  justify-content: flex-start;
+}
+.phone {
+  position: relative;
+  line-height: 14.91px;
+  font-weight: 500;
+}
+.phone-wrapper {
+  flex: 1;
+  padding: 14.908770561218262px 0;
+  align-items: center;
+  font-size: 14.91px;
+}
+.bhen-wrapper,
+.frame-parent,
+.issue-type-wrapper,
+.phone-wrapper,
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.issue-type-wrapper {
+  width: 216.36px;
+  flex-shrink: 0;
+  padding: 13.958984375px 0;
+  box-sizing: border-box;
+  align-items: center;
+}
+.bhen-wrapper,
+.frame-parent,
+.wrapper {
+  align-items: flex-start;
+}
+.frame-parent {
+  align-self: stretch;
+  background-color: var(--color-darkslategray-200);
+  border: 1px solid var(--color-darkslategray-100);
+  padding: 0 46.8623046875px;
+  gap: 4.99px;
+}
+.bhen-wrapper,
+.wrapper {
+  flex: 1;
+  padding: 15.953125px 0;
+}
+.wrapper {
+  padding: 17.038593292236328px 0;
+  font-size: 14.91px;
+}
+.leaking-faucets {
+  position: relative;
+  line-height: 47.86px;
+}
+.leaking-faucets-wrapper,
+.lorem-ipsum-dolor-wrapper {
+  display: flex;
+  flex-direction: row;
+  padding: 15.953125px 0;
+  align-items: flex-start;
+  justify-content: flex-start;
+  font-family: var(--font-roboto);
+}
+.leaking-faucets-wrapper {
+  width: 215.37px;
+  flex-shrink: 0;
+  box-sizing: border-box;
+}
+.lorem-ipsum-dolor-wrapper {
+  flex: 1;
+}
+.frame-group {
+  align-self: stretch;
+  background-color: var(--color-gray-100);
+  border: 1px solid var(--color-darkslategray-100);
+  box-sizing: border-box;
+  height: 63.81px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  padding: 0.9970703125px 46.8623046875px;
+  align-items: center;
+  justify-content: center;
+}
+.table-variation-1 {
+  position: absolute;
+  top: 215.37px;
+  left: 114.66px;
+  width: 1173.55px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  text-align: left;
+  font-size: 13.96px;
+  font-family: var(--font-montserrat);
+}
+.a-wat-issue {
+  position: relative;
+  background-color: var(--color-gray-100);
+  width: 100%;
+  height: 1021px;
+  overflow: hidden;
+  text-align: center;
+  font-size: 27.92px;
+  color: var(--color-white);
+  font-family: var(--font-inder);
+}

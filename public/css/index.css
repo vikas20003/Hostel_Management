@@ -1,0 +1,190 @@
+.image-1-icon {
+  left: 578px;
+  width: 873px;
+  object-fit: cover;
+}
+.group-child,
+.image-1-icon,
+.image-1-parent {
+  position: absolute;
+  top: 0;
+  height: 1024px;
+}
+.group-child {
+  left: 0;
+  background: linear-gradient(
+    91.21deg,
+    #1d1d1d 47.4%,
+    rgba(29, 29, 29, 0.94) 54.17%,
+    rgba(29, 29, 29, 0.81) 64.58%,
+    rgba(29, 29, 29, 0.68) 73.44%,
+    rgba(29, 29, 29, 0) 99.99%
+  );
+  width: 1215px;
+}
+.image-1-parent {
+  left: -11px;
+  width: 1451px;
+}
+.email,
+.login1 {
+  position: relative;
+}
+.email {
+  align-self: stretch;
+  font-size: 24.14px;
+  font-family: var(--font-abel);
+  color: var(--neutral-white);
+  text-align: left;
+}
+.sec31,
+.sec32 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.sec32 {
+  border: 1.7px solid #101010;
+  font-family: var(--font-abel);
+  font-size: 24.14px;
+  background-color: var(--color-darkgray-200);
+  align-self: stretch;
+  border-radius: var(--br-6xs-9);
+  box-sizing: border-box;
+  height: 47px;
+  flex-shrink: 0;
+  flex-direction: row;
+  padding: 0 13.796406745910645px 3px;
+}
+.sec31 {
+  position: absolute;
+  top: 0;
+  left: 0.39px;
+  width: 469.08px;
+  flex-direction: column;
+  gap: var(--gap-sm-8);
+}
+.forgot-password,
+.password1 {
+  position: relative;
+  font-size: 24.14px;
+  font-family: var(--font-abel);
+  color: var(--neutral-white);
+  text-align: left;
+}
+.forgot-password {
+  text-decoration: none;
+  color: var(--ios-blue);
+}
+.sec34 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.sec35 {
+  border: 1.7px solid var(--color-black);
+  background-color: var(--color-darkgray-200);
+  border-radius: var(--br-6xs-9);
+  box-sizing: border-box;
+  width: 469px;
+  height: 50px;
+  flex-shrink: 0;
+}
+.sec33 {
+  position: absolute;
+  top: 144.78px;
+  left: 0.39px;
+  width: 469.08px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-sm-8);
+}
+.login2 {
+  position: relative;
+  font-size: 27.59px;
+  font-family: var(--font-abel);
+  color: var(--neutral-white);
+  text-align: left;
+}
+.sec36 {
+  cursor: pointer;
+  border: 0;
+  padding: 13.796406745910645px;
+  background-color: var(--ios-blue);
+  position: absolute;
+  top: 301.34px;
+  left: 0;
+  border-radius: var(--br-sm-8);
+  width: 469.08px;
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+}
+.sec-container {
+  position: relative;
+  width: 469.47px;
+  height: 363.93px;
+  flex-shrink: 0;
+}
+.create-new-account,
+.dont-have-account {
+  position: relative;
+  display: inline-block;
+  width: 197px;
+  flex-shrink: 0;
+  cursor: pointer;
+}
+.create-new-account {
+  text-decoration: none;
+  color: var(--ios-blue);
+  width: 190px;
+}
+.dont-have-account-parent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 5px;
+}
+.sec29,
+.sec30 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.sec30 {
+  border-radius: var(--br-sm-8);
+  background-color: var(--color-dimgray-200);
+  box-shadow: 6px 7px 7px rgba(65, 30, 21, 0.5);
+  width: 551.86px;
+  padding: 41.38922119140625px;
+  box-sizing: border-box;
+  gap: 41.39px;
+  text-align: left;
+  font-size: 24.14px;
+  color: var(--neutral-white);
+}
+.sec29 {
+  position: absolute;
+  top: calc(50% - 325.7px);
+  left: calc(50% - 618px);
+  gap: 39px;
+}
+.hostel-login {
+  position: relative;
+  background-color: var(--color-gray-200);
+  width: 100%;
+  height: 1024px;
+  overflow: auto;
+  text-align: center;
+  font-size: 41.39px;
+  color: #d9d9d9;
+  font-family: var(--font-abel);
+}

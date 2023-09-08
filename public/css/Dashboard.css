@@ -1,0 +1,263 @@
+.welcome {
+  position: absolute;
+  top: 134px;
+  left: 556px;
+  display: inline-block;
+  width: 319px;
+}
+.personal-data-bro-1 {
+  position: absolute;
+  top: 0;
+  left: 134px;
+  width: 258px;
+  height: 258px;
+  overflow: hidden;
+}
+.profile2 {
+  position: absolute;
+  top: 88px;
+  left: 15px;
+  text-transform: capitalize;
+  display: inline-block;
+  width: 142px;
+}
+.personal-data-bro-1-parent {
+  text-decoration: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 15.63px;
+  background-color: var(--color-dimgray-200);
+  box-shadow: 4px 4px 4px #90caf9;
+  border: 1px solid var(--color-black);
+  box-sizing: border-box;
+  width: 373px;
+  height: 215.3px;
+  overflow: hidden;
+  cursor: pointer;
+  color: inherit;
+}
+.completed-bro-1-parent:hover,
+.credit-card-bro-1-parent:hover,
+.electrician-bro-1-parent:hover,
+.lost-and-found-parent:hover,
+.personal-data-bro-1-parent:hover,
+.world-water-day-cuate-1-parent:hover {
+  background-color: var(--color-dimgray-100);
+}
+.electrician-bro-1-icon {
+  position: absolute;
+  top: 0;
+  left: 153px;
+  width: 278px;
+  height: 278px;
+  overflow: hidden;
+}
+.report-electronic-issue {
+  position: absolute;
+  top: 47px;
+  left: 2px;
+  text-transform: capitalize;
+  display: inline-block;
+  width: 199px;
+  height: 122px;
+}
+.electrician-bro-1-parent {
+  text-decoration: none;
+  position: absolute;
+  top: 0;
+  left: 435px;
+  border-radius: 15.63px;
+  background-color: var(--color-dimgray-200);
+  box-shadow: 4px 4px 4px #92e3a9;
+  border: 1px solid var(--color-black);
+  box-sizing: border-box;
+  width: 373px;
+  height: 215.3px;
+  overflow: hidden;
+  cursor: pointer;
+  color: inherit;
+}
+.world-water-day-cuate-1 {
+  position: absolute;
+  top: 0;
+  left: 126px;
+  width: 247px;
+  height: 247px;
+  overflow: hidden;
+}
+.report-water-related {
+  position: absolute;
+  top: 28px;
+  left: 0;
+  text-transform: capitalize;
+  display: inline-block;
+  width: 174px;
+}
+.world-water-day-cuate-1-parent {
+  text-decoration: none;
+  position: absolute;
+  top: 0;
+  left: 870px;
+  border-radius: 15.63px;
+  background-color: var(--color-dimgray-200);
+  box-shadow: 4px 4px 4px #ffc727;
+  border: 1px solid var(--color-black);
+  box-sizing: border-box;
+  width: 373px;
+  height: 215.3px;
+  overflow: hidden;
+  cursor: pointer;
+  color: inherit;
+}
+.credit-card-bro-1 {
+  position: absolute;
+  top: 15.3px;
+  left: 0;
+  width: 232px;
+  height: 199.58px;
+  overflow: hidden;
+}
+.hostel-fees-status1 {
+  position: absolute;
+  top: 47.3px;
+  left: 226px;
+  text-transform: capitalize;
+  display: inline-block;
+  width: 147px;
+}
+.credit-card-bro-1-parent {
+  text-decoration: none;
+  position: absolute;
+  top: 298.7px;
+  left: 0;
+  border-radius: 15.63px;
+  background-color: var(--color-dimgray-200);
+  box-shadow: 4px 4px 4px #ba68c8;
+  border: 1px solid var(--color-black);
+  box-sizing: border-box;
+  width: 373px;
+  height: 215.3px;
+  overflow: hidden;
+  cursor: pointer;
+  color: inherit;
+}
+.completed-bro-1-icon {
+  position: absolute;
+  top: 9.3px;
+  left: 0;
+  width: 207px;
+  height: 206px;
+  overflow: hidden;
+}
+.register2 {
+  position: absolute;
+  top: 87.3px;
+  left: 202px;
+  text-transform: capitalize;
+  display: inline-block;
+  width: 170px;
+}
+.completed-bro-1-parent {
+  text-decoration: none;
+  position: absolute;
+  top: 298.7px;
+  left: 435px;
+  border-radius: 15.63px;
+  background-color: var(--color-dimgray-200);
+  box-shadow: 4px 4px 4px #c53f3f;
+  border: 1px solid var(--color-black);
+  box-sizing: border-box;
+  width: 372px;
+  height: 215.3px;
+  overflow: hidden;
+  cursor: pointer;
+  color: inherit;
+}
+.lost-and-found1 {
+  position: absolute;
+  top: 47.3px;
+  left: 252px;
+  text-transform: capitalize;
+  display: inline-block;
+  width: 121px;
+}
+.dressing-room-cuate-1,
+.lost-and-found-parent {
+  position: absolute;
+  top: 38.3px;
+  left: 0;
+  width: 315px;
+  height: 210px;
+  overflow: hidden;
+}
+.lost-and-found-parent {
+  text-decoration: none;
+  top: 298.7px;
+  left: 869px;
+  border-radius: 15.63px;
+  background-color: var(--color-dimgray-200);
+  box-shadow: 4px 4px 4px #ff81ae;
+  border: 1px solid var(--color-black);
+  box-sizing: border-box;
+  width: 373px;
+  height: 215.3px;
+  cursor: pointer;
+  color: inherit;
+}
+.frame-container {
+  position: absolute;
+  top: 248px;
+  left: 94px;
+  width: 1243px;
+  height: 514px;
+  font-family: var(--font-inder);
+}
+.frame-child17 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #515151;
+  width: 1440px;
+  height: 84px;
+}
+.icon-arrow-back {
+  position: absolute;
+  height: 47.62%;
+  width: 2.78%;
+  top: 29.76%;
+  right: 89.79%;
+  bottom: 22.62%;
+  left: 7.43%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  display: none;
+}
+.dashboard1 {
+  position: absolute;
+  top: 22px;
+  left: 639px;
+}
+.dashboard,
+.rectangle-parent4 {
+  text-align: center;
+  font-size: var(--font-size-13xl);
+  color: var(--neutral-white);
+}
+.rectangle-parent4 {
+  position: absolute;
+  top: -1px;
+  left: 0;
+  width: 1440px;
+  height: 84px;
+  font-family: var(--font-inder);
+}
+.dashboard {
+  position: relative;
+  background-color: var(--color-gray-200);
+  width: 100%;
+  height: 1024px;
+  overflow: hidden;
+  font-family: var(--font-abel);
+}

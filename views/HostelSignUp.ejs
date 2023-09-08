@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+    <link rel="stylesheet" href="css/global.css" />
+    <link rel="stylesheet" href="css/HostelSignUp.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inder:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Abel:wght@400&display=swap"
+    />
+  </head>
+  <body>
+    <div class="hostel-sign-up">
+      <form class="group-parent" method="post" action="/signup">
+        <div class="group-container">
+          <div class="sec-parent">
+            <div class="sec7">
+              <div class="email-id">Email Id.</div>
+              <input class="sec8" type="email" name="email" />
+            </div>
+            <div class="sec9">
+              <div class="sec10">
+                <div class="password">Password</div>
+              </div>
+              <input class="sec11" type="password" name="pass" />
+            </div>
+            <div class="sec12">
+              <div class="sec10">
+                <div class="password">Confirm Password</div>
+              </div>
+              <input class="sec11" type="password"/>
+            </div>
+            <div class="sec15">
+              <div class="sec10">
+                <div class="password" >Contact</div>
+              </div>
+              <input class="sec17" type="tel" name="contact" />
+            </div>
+          </div>
+          <div class="sec-group">
+            <div class="sec18">
+              <div class="email-id">Name</div>
+              <input class="sec17" type="text" name="stname"/>
+            </div>
+            <div class="sec7">
+              <div class="sec10">
+                <div class="password">Student Id</div>
+              </div>
+              <input class="sec22" type="number" min="{9}" max="{9}"  name="stid" />
+            </div>
+            <div class="sec12">
+              <div class="sec10">
+                <div class="password">Room No.</div>
+              </div>
+              <input class="sec25" type="number" min="{3}" max="{3}" name="roomno" />
+            </div>
+            <div class="sec9">
+              <div class="sec10">
+                <div class="password">Block No.</div>
+              </div>
+              <select class="block" name="blockno">
+                <option value="A">A</option>
+                <option value="B">B</option>
+                <option value="C">C</option>
+                <option value="D">D</option>
+                <option value="E">E</option>
+                <option value="F">F</option>
+              </select>
+            </div>
+          </div>
+        </div>
+        <button class="sec28" id="sec7">
+          <div class="create-account">Create Account</div>
+        </button>
+      </form>
+      <div class="already-have-account-wrapper">
+        <div class="already-have-account" id="alreadyHaveAccount">
+          Already have account?
+        </div>
+      </div>
+      <a class="login" id="login">Login</a>
+      <strong class="sign-up">Sign Up</strong>
+    </div>
+
+    <script>
+      var sec7 = document.getElementById("sec7");
+      if (sec7) {
+        sec7.addEventListener("click", function (e) {
+          window.location.href = "/dashboard";
+        });
+      }
+      
+      var alreadyHaveAccount = document.getElementById("alreadyHaveAccount");
+      if (alreadyHaveAccount) {
+        alreadyHaveAccount.addEventListener("click", function (e) {
+          window.location.href = "/";
+        });
+      }
+      
+      var login = document.getElementById("login");
+      if (login) {
+        login.addEventListener("click", function (e) {
+          window.location.href = "/";
+        });
+      }
+      </script>
+  </body>
+</html>

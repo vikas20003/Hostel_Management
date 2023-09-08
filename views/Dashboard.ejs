@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+    <link rel="stylesheet" href="css/global.css" />
+    <link rel="stylesheet" href="css/Dashboard.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inder:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Abel:wght@400&display=swap"
+    />
+  </head>
+  <body>
+    <div class="dashboard">
+      <div class="welcome">Welcome <%=Name%>!!</div>
+      <div class="frame-container">
+        <a class="personal-data-bro-1-parent" id="frameLink">
+          <img
+            class="personal-data-bro-1"
+            alt=""
+            src="images/personal-databro-1.svg"
+          />
+
+          <div class="profile2">Profile</div>
+        </a>
+        <a class="electrician-bro-1-parent" id="frameLink1">
+          <img
+            class="electrician-bro-1-icon"
+            alt=""
+            src="images/electricianbro-1.svg"
+          />
+
+          <div class="report-electronic-issue">report electronic issue</div>
+        </a>
+        <a class="world-water-day-cuate-1-parent" id="frameLink2">
+          <img
+            class="world-water-day-cuate-1"
+            alt=""
+            src="images/world-water-daycuate-1.svg"
+          />
+
+          <div class="report-water-related">report Water related issue</div>
+        </a>
+        <a class="credit-card-bro-1-parent" id="frameLink3">
+          <img
+            class="credit-card-bro-1"
+            alt=""
+            src="images/credit-cardbro-1.svg"
+          />
+
+          <div class="hostel-fees-status1">Hostel fees status</div>
+        </a>
+        <a class="completed-bro-1-parent" id="frameLink4">
+          <img
+            class="completed-bro-1-icon"
+            alt=""
+            src="images/completedbro-1.svg"
+          />
+
+          <div class="register2">Register</div>
+        </a>
+        <a class="lost-and-found-parent" id="frameLink5">
+          <div class="lost-and-found1">Lost and Found</div>
+          <img
+            class="dressing-room-cuate-1"
+            alt=""
+            src="images/dressing-roomcuate-1.svg"
+          />
+        </a>
+      </div>
+      <header class="rectangle-parent4">
+        <div class="frame-child17"></div>
+        <img
+          class="icon-arrow-back"
+          alt=""
+          src="images/-icon-arrow-back.svg"
+        />
+
+        <strong class="dashboard1">Dashboard</strong>
+      </header>
+    </div>
+
+    <script>
+      var frameLink = document.getElementById("frameLink");
+      if (frameLink) {
+        frameLink.addEventListener("click", function (e) {
+          window.location.href = "/profile";
+        });
+      }
+      
+      var frameLink1 = document.getElementById("frameLink1");
+      if (frameLink1) {
+        frameLink1.addEventListener("click", function (e) {
+          window.location.href = "/elec";
+        });
+      }
+      
+      var frameLink2 = document.getElementById("frameLink2");
+      if (frameLink2) {
+        frameLink2.addEventListener("click", function (e) {
+          window.location.href = "/wat";
+        });
+      }
+      
+      var frameLink3 = document.getElementById("frameLink3");
+      if (frameLink3) {
+        frameLink3.addEventListener("click", function (e) {
+          window.location.href = "/fees";
+        });
+      }
+      
+      var frameLink4 = document.getElementById("frameLink4");
+      if (frameLink4) {
+        frameLink4.addEventListener("click", function (e) {
+          window.location.href = "/register";
+        });
+      }
+      
+      var frameLink5 = document.getElementById("frameLink5");
+      if (frameLink5) {
+        frameLink5.addEventListener("click", function (e) {
+          window.location.href = "/lost";
+        });
+      }
+      </script>
+  </body>
+</html>

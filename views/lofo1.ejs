@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+    <link rel="stylesheet" href="css/global1.css" />
+    <link rel="stylesheet" href="css/a-lofo.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inder:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Abel:wght@400&display=swap"
+    />
+  </head>
+  <body>
+    <div class="a-lofo">
+      <div class="rectangle-container">
+        <div class="frame-inner"></div>
+        <img
+          class="icon-arrow-back2"
+          alt=""
+          src="images/-icon-arrow-back1.svg"
+        />
+
+        <strong class="lost-and-found">Lost and Found</strong>
+      </div>
+      <img class="icon-home2" alt="" src="images/-icon-home.svg" />
+
+      <div class="table-variation-12">
+        <div class="frame-parent1">
+          <div class="lostfoiund-wrapper">
+            <div class="lostfoiund">Student ID</div>
+          </div>
+          <div class="lostfoiund-wrapper">
+            <div class="lostfoiund">Lost/Found</div>
+          </div>
+          <div class="lostfoiund-wrapper">
+            <div class="lostfoiund">Description</div>
+          </div>
+         
+        </div>
+        <% students.forEach(function(student) { %>
+        <div class="frame-parent2">
+          <div class="found-wrapper">
+            <div class="lostfoiund"><%=student.studentid%></div>
+          </div>
+          <div class="found-wrapper">
+            <div class="lostfoiund"><%=student.lostorfound%></div>
+          </div>
+          <div class="blue-colored-wrapper">
+            <div class="blue-colored"><%=student.Description%></div>
+          </div>
+        
+        </div>
+        <% }); %>
+      </div>
+    </div>
+  </body>
+</html>

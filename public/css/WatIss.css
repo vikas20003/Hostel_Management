@@ -1,0 +1,247 @@
+.frame-child2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-darkslategray);
+  width: 1440px;
+  height: 84px;
+}
+.frame-child3 {
+  position: absolute;
+  top: 12px;
+  left: 1346px;
+  width: 60px;
+  height: 60px;
+}
+.vector-icon6,
+.vector-icon7 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 55%;
+  right: -3192.5%;
+  bottom: -55%;
+  left: 3192.5%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.vector-icon7 {
+  height: 70.83%;
+  width: 83.33%;
+  top: 12.5%;
+  right: 8.33%;
+  bottom: 16.67%;
+  left: 8.33%;
+}
+.icon-home3 {
+  text-decoration: none;
+  position: absolute;
+  height: 47.62%;
+  width: 2.78%;
+  top: 26.19%;
+  right: 8.54%;
+  bottom: 26.19%;
+  left: 88.68%;
+  cursor: pointer;
+}
+.frame-header,
+.water-related-issues {
+  position: absolute;
+  top: 29px;
+  left: 622px;
+}
+.frame-header {
+  top: 1px;
+  left: 0;
+  width: 1440px;
+  height: 84px;
+  text-align: center;
+  font-size: var(--font-size-xl);
+  color: var(--neutral-white);
+  font-family: var(--font-inder);
+}
+.report-your-plumbingwater {
+  position: absolute;
+  top: 130px;
+  left: 107px;
+  font-size: var(--font-size-13xl);
+}
+.upload-image-not1 {
+  position: absolute;
+  top: 209px;
+  left: 872px;
+  font-size: var(--font-size-5xl);
+  display: none;
+}
+.browse1 {
+  position: relative;
+}
+.browse-container {
+  position: absolute;
+  top: 203px;
+  left: 1255px;
+  border-radius: var(--br-xl);
+  border: 1px solid var(--neutral-white);
+  display: none;
+  flex-direction: row;
+  padding: var(--padding-3xs);
+  align-items: flex-start;
+  justify-content: flex-start;
+  font-family: var(--font-inter);
+}
+.frame-child4 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-darkslategray);
+  width: 350px;
+  height: 350px;
+}
+.frame-child5,
+.polygon-icon {
+  position: absolute;
+  top: 215px;
+  left: -38px;
+  border-radius: var(--br-sm);
+  width: 219px;
+  height: 180px;
+}
+.frame-child5 {
+  top: 154px;
+  left: 43px;
+  width: 380px;
+  height: 261px;
+}
+.frame-child6,
+.frame-child7 {
+  position: absolute;
+  top: 99px;
+  left: 72px;
+  width: 100px;
+  height: 100px;
+}
+.frame-child7 {
+  top: 0;
+  left: 0;
+  background-color: var(--color-gray-100);
+  width: 350px;
+  height: 49px;
+}
+.frame-div,
+.x {
+  position: absolute;
+  top: 12px;
+  left: 319px;
+}
+.frame-div {
+  top: 278px;
+  left: 927px;
+  border-radius: var(--br-9xs);
+  border: 1px solid var(--color-darkgray-100);
+  box-sizing: border-box;
+  width: 350px;
+  height: 350px;
+  overflow: hidden;
+  display: none;
+  font-family: var(--font-inter);
+}
+.describe-your-issue,
+.select-your-issue {
+  position: absolute;
+  top: 0;
+  left: 1px;
+  font-size: var(--font-size-5xl);
+  font-family: var(--font-inder);
+  color: var(--neutral-white);
+  text-align: left;
+}
+.describe-your-issue {
+  top: 89px;
+}
+.sec5,
+.send-request {
+  font-family: var(--font-abel);
+}
+.sec5 {
+  border: 1px solid var(--neutral-white);
+  font-size: var(--font-size-lg);
+  background-color: rgba(176, 174, 174, 0.8);
+  position: absolute;
+  top: 131px;
+  left: 1px;
+  border-radius: 4.96px;
+  box-sizing: border-box;
+  width: 659px;
+  height: 59px;
+  display: flex;
+  flex-direction: row;
+  padding: 0 9.927002906799316px;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.send-request {
+  position: relative;
+  font-size: 24.14px;
+  color: var(--color-black);
+  text-align: left;
+}
+.send-request-wrapper,
+.wat {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.send-request-wrapper {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-xs) var(--padding-7xl);
+  background-color: var(--color-lightgray);
+  top: 286px;
+  left: 0;
+  border-radius: var(--br-xs);
+  align-items: flex-start;
+}
+.wat {
+  top: 42px;
+  left: 1px;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-darkgray-300);
+  border: 1px solid var(--neutral-white);
+  box-sizing: border-box;
+  width: 254px;
+  padding: var(--padding-5xs) var(--padding-xs);
+  align-items: center;
+  gap: var(--gap-3xs);
+}
+.select-your-issue-parent {
+  position: absolute;
+  top: 203px;
+  left: 106px;
+  width: 660px;
+  height: 341px;
+}
+.taking-a-showeramico-icon {
+  position: absolute;
+  height: 69.14%;
+  width: 43.33%;
+  top: 30.86%;
+  right: 0;
+  bottom: 0;
+  left: 56.67%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.wat-iss {
+  position: relative;
+  background-color: var(--color-gray-200);
+  width: 100%;
+  height: 1024px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--neutral-white);
+  font-family: var(--font-inder);
+}

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+    <link rel="stylesheet" href="css/global.css" />
+    <link rel="stylesheet" href="css/WatIss.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inder:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Abel:wght@400&display=swap"
+    />
+  </head>
+  <body>
+    <div class="wat-iss">
+      <header class="frame-header">
+        <div class="frame-child2"></div>
+        <img class="frame-child3" alt="" src="images/ellipse-1.svg" />
+
+        <a class="icon-home3" id="iconHome">
+          <img class="vector-icon6" alt="" />
+
+          <img class="vector-icon7" alt="" src="images/vector1.svg" />
+        </a>
+        <strong class="water-related-issues">Water Related Issues</strong>
+      </header>
+      <div class="report-your-plumbingwater">
+        Report your Plumbing/Water related issues here:
+      </div>
+      <div class="upload-image-not1">Upload image (not cumpulsory)</div>
+      <div class="browse-container">
+        <div class="browse1">Browse</div>
+      </div>
+      <div class="frame-div">
+        <div class="frame-child4"></div>
+        <img class="polygon-icon" alt="" src="images/polygon-1.svg" />
+
+        <img class="frame-child5" alt="" src="images/polygon-2.svg" />
+
+        <img class="frame-child6" alt="" src="images/ellipse-2.svg" />
+
+        <div class="frame-child7"></div>
+        <div class="x">x</div>
+      </div>
+      <form class="select-your-issue-parent" method="post" action="water">
+        <div class="select-your-issue">Select your Issue:</div>
+        <div class="describe-your-issue">Describe your issue here:</div>
+        <input class="sec5" type="text" name="note" />
+
+        <button class="send-request-wrapper" type="submit">
+          <div class="send-request">Send Request</div>
+        </button>
+        <select class="wat" name="issue">
+          <option value="water leakage">Clogged Drains</option>
+          <option value="water leakage">Leaking Faucets</option>
+          <option value="water leakage">Toilet Malfunction</option>
+          <option value="water leakage">Low Water Pressure</option>
+          <option value="water leakage">Broken Pipes</option>
+          <option value="water leakage">Sewer Line Blockages</option>
+          <option value="water leakage">R/O</option>
+          <option value="other">other water related issues</option>
+        </select>
+      </form>
+      <img
+        class="taking-a-showeramico-icon"
+        alt=""
+        src="images/shower.svg"
+      />
+    </div>
+
+    <script>
+      var iconHome = document.getElementById("iconHome");
+      if (iconHome) {
+        iconHome.addEventListener("click", function (e) {
+          window.location.href = "/dashboard";
+        });
+      }
+      </script>
+  </body>
+</html>
